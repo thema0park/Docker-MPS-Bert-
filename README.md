@@ -25,9 +25,9 @@ tensorflow : 1.15
 
 ## Limit
 1. 다수의 MPS 클라이언트가 동시 실행되는 것과 달리, MPS서버는 오직 한 유저만이 실행시킬 수 있다.
-  	같은 UID로 서버에 제출된 클라이언트만 GPU에서 동시에 실행될 수 있다.
+  - 같은 UID로 서버에 제출된 클라이언트만 GPU에서 동시에 실행될 수 있다.
 2. Dynamic parallelism은 지원되지 않는다
-  	Dynamic parallelism이란?
+  - Dynamic parallelism이란?
 3. Volta 이전의 디바이스에서는 어떻한 Stream Callback도 사용할 수 없다.
-  	따라서, 텐서플로우의 Stream Callback을 이용한 기능을 이용할 수 없을 수 있다.
+  - 따라서, 텐서플로우의 Stream Callback을 이용한 기능을 이용할 수 없을 수 있다.
 4. MPS 클라이언트 중의 하나가 비정상적으로 종료된다면, MPS서버와 다른 클라이언트들이 어떤 상태에 있는지 알 수 없다.
