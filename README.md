@@ -1,8 +1,8 @@
 # Docker-MPS-Bert-
 
 ## enviroment
-DGX : Tesla V100 * 4
-python : 3.7
+DGX : Tesla V100 * 4\n
+python : 3.7\n
 tensorflow : 1.15
 
 # Detail
